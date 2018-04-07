@@ -4,9 +4,19 @@
  *@
 
  @main("Products") {
-      <!-- this css class is not part of bootstrap but is defined in /css/style.css -->
-      <div class="starter-template">
-            <h1>My Site - Products</h1>
-            <p class="lead">Details about our products.</p>
+      <!-- https://getbootstrap.com/docs/4.0/layout/grid/ -->
+      <div class="row">
+        <div class="col-md-3">
+
+          <!-- https://getbootstrap.com/docs/4.0/components/list-group/ -->
+          <div class="list-group">
+            <a href="#" class="list-group-item  list-group-item-action">All Categories</a>
           </div>
+
+        </div>
+
+        <div class="col-md-auto">
+          <!-- https://getbootstrap.com/docs/4.0/content/tables/ -->
+            <h3>Products List</h3>
+        </div>
  }
